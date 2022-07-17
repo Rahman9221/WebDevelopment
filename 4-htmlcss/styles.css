@@ -1,0 +1,78 @@
+body
+{
+    background-color: rgb(246, 239, 225);
+}
+
+h1,h2
+{
+    text-align: center;
+    color: rgb(166, 110, 110);
+}
+
+.center
+{
+    text-align: center;
+}
+
+p.strong
+{
+    font-size:20px;
+    color: rgb(9, 9, 9);
+}
+
+a[href]
+{
+    background-color: rgba(170, 178, 185, 0.708);
+}
+
+[title~='Tilde']
+{
+    color: rgb(60, 103, 140);
+}
+
+[title|='pipe']
+{
+    color: blueviolet;
+}
+
+[title^='cap']
+{
+    color: chocolate;
+}
+
+[title$='bal']
+{
+    color: rgba(219, 29, 137, 0.857);
+}
+
+[title*='eg']
+{
+    color: rgb(13, 133, 239);
+}
+
+div p
+{
+    color: rgb(14, 118, 19);
+    font-size: x-large;
+}
+
+div > p
+{
+    color: rgb(168, 139, 160);
+    font-size: x-large;
+}
+
+li:nth-of-type(2)
+{
+    background-color: orange;
+}
+
+li:nth-of-type(4)
+{
+    background-color: rgb(214, 145, 18);
+}
+
+:nth-of-type(2)
+{
+    background-color: yellow;
+}
