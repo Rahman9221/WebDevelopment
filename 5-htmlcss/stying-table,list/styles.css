@@ -1,0 +1,126 @@
+.first
+{
+    color: red;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
+
+.second
+{
+    text-indent: 100px;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    color: salmon;
+    font-family:fantasy;
+}
+
+.third
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+a:hover
+{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+a:active
+{
+    color: yellow;
+    background-color: orange;
+}
+
+/* a:visited
+{
+    color: green;
+    background-color: yellow;
+} */
+
+ul li 
+{
+    list-style-type: upper-roman;
+}
+
+ol li
+{
+    list-style-type: square;
+}
+
+/*visibility property*/
+
+/* ol li
+{
+    visibility: hidden;
+} */
+
+/* ol li
+{
+    display: inline;
+} */
+
+table
+{
+    border: 3px solid rebeccapurple;
+    width: 40%;
+    height: 25%;
+    border-collapse: collapse;
+
+}
+
+/* tr th
+{
+    border: 3px solid orange;
+}
+
+tr td
+{
+    border: 3px solid orangered;
+} */
+
+th
+{
+    border: 3px solid orange;
+}
+
+td
+{
+    border: 3px solid gray;
+}
+
+div
+{
+    font-size: 40px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 1px;
+    margin-right: 100;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+body
+{
+    background-image: url(https://images.pexels.com/photos/2512281/pexels-photo-2512281.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position: center;
+    background-size: cover;   
+}
+
+div.static
+{
+    position: fixed;
+    /* bottom: 0;
+    right: 0;  */
+    bottom: 0;
+    right: 100;
+    width: 300px;
+    border: 3px solid lightcyan;
+}

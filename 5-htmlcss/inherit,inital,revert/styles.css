@@ -1,0 +1,46 @@
+/* ----------------span tag-----------*/
+
+span
+{
+    color: green;
+    border: 2px solid yellow;
+}
+
+.extra span
+{
+    color: inherit
+    ;
+}
+
+/*  - - - - - - - - -Initial tag  - - - - - - -*/
+/* h1
+{
+    text-align: center;
+    color: initial;
+}
+
+div
+{
+    color: red;
+}
+
+div.border
+{
+    border: 3px solid orange;
+} */
+
+/* --------------------revert tag */
+/* .parent
+{
+    color: blue;
+}
+
+p
+{
+    color: red;
+}
+
+.change
+{
+    color: revert;
+} */
