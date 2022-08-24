@@ -1,0 +1,40 @@
+div
+{
+    display: grid;
+    /* grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px ;
+    gap: 10px; */
+    border: 2px solid saddlebrown;
+    grid-template-rows: 10px 10px;
+}
+
+.yellow
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.green
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.red
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.orange
+{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.pink
+{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
