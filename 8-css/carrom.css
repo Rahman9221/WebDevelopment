@@ -1,0 +1,397 @@
+h1
+{
+    
+    background-color : rgba(246, 137, 36, 0.886);
+    color: snow;
+    width: 200px;
+    height: 40px;
+
+}
+
+body
+{
+    margin: 0px;
+    background-color: gray;
+}
+
+.container
+{
+    border: 1px solid orange;  
+    width: 700px;  
+    height: 650px;
+    
+}
+
+.header
+{
+    border: 2px solid rebeccapurple;
+    width: 699px;
+    height: 60px;
+}
+
+.h1, .h2, .h3
+{
+    border: 2px solid green;
+    width: 229px;
+    height: 59px;
+    float: left;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px solid salmon;
+    float: left;
+}
+
+.menu
+{
+    background-color: lightblue;
+    height: 500px;
+    width: 200px;
+}
+
+.footer
+{
+    background-color: lightcoral;
+    height: 85px;
+}
+
+
+table
+{
+    background-color: lavenderblush;
+}
+tr .black
+{
+    background-color: black;
+    height: 30px;
+}
+
+tr.white
+{
+    background-color: white;
+    height: 30px;
+}
+
+
+/* -------------------------------------------- carrom board */
+.outerborder
+{
+    border: 80px solid black;
+    width: 600px;
+    height: 600px;
+
+
+}
+
+div .button1
+{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100px;
+    
+}
+div .button2
+{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: 472px;
+}
+div .button3
+{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 475px;
+}
+div .button4
+{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: 472px;
+}
+
+
+.outercircle
+{
+    border: 2px solid orange;
+    width: 596px;
+    height: 596px;
+    background-color: rgb(249,230,174);
+}
+
+.outerborder .topline
+{
+    position: absolute;
+    border: 3px solid black;
+    top: 0;
+    margin-top: 260px;
+    margin-left: 70px;
+    width: 430px;
+}
+
+.outerborder .toplinedown
+{
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    width: 430px;
+    margin-top: 283px;
+    margin-left: 70px;
+
+}
+
+
+.outerborder .bottomline
+{
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    width: 430px;
+    margin-top: 640px;
+    margin-left: 70px; 
+    border: 2px solid black;
+    
+}
+
+.outerborder .bottomlinedown
+{
+    position: absolute;
+    top: 0;
+    width: 430px;
+    margin-top: 660px;
+    margin-left: 70px; 
+    border:3px solid black;
+}
+
+.outerborder .leftline
+{
+    border: 3px solid black;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 380px;
+    margin-top: 265px;
+    margin-left: 63px;
+    border-radius: 20px;
+}
+
+.outerborder .rightline
+{
+    border: 3px solid black;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 380px;
+    margin-top: 265px;
+    margin-left: 486px;
+    border-radius: 20px;
+
+}
+
+.topcircleleft
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 569px;
+    margin-top: 260px;
+}
+
+.topcircleright
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 145px;
+    margin-top: 260px;
+}
+
+.bottomcircleleft
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 145px;
+    margin-top: 640px;
+}
+
+.bottomcircleright
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: 570px;
+    margin-top: 640px;
+    
+}
+
+img
+{
+    width: 100px;
+    position: absolute;
+    left: 320px;
+    top: 400px;
+}
+
+.outerborder .angleline1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    top: 320px;
+    left: 150px;
+    transform: rotate(34deg);
+    
+}
+
+.outerborder .angleline2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    top: 320px;
+    left: 435px;
+    transform: rotate(147deg);
+    
+}
+
+.outerborder .angleline3
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    top: 610px;
+    left: 420px;
+    transform: rotate(22deg);
+}
+
+.outerborder .angleline2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    top: 615px;
+    left: 160px;
+    transform: rotate(159deg);
+}
+
+.outerborder .angleline4
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    top: 320px;
+    left: 420px;
+    transform: rotate(155deg);
+}
+
+p{
+    color: wheat;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    left: 300px;
+    font-size: 40px;
+}
+
+.willright1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 359px;
+    left: 425px;
+    transform: rotate(15deg);   
+}
+
+.willright2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 335px;
+    left: 415px;
+    transform: rotate(125deg);  
+}
+
+.willleft1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 343px;
+    left: 262px;
+    transform: rotate(75deg);  
+}
+
+.willleft2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 365px;
+    left: 245px;
+    transform: rotate(-5deg);  
+}
+
+.willbottomright1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 600px;
+    left: 415px;
+    transform: rotate(54deg);  
+}
+
+.willbottomright2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 574px;
+    left: 422px;
+    transform: rotate(-23deg);  
+}
+
+.willbottomleft1
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 576px;
+    left: 270px;
+    transform: rotate(28deg);    
+}
+
+.willbottomleft2
+{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    top: 605px;
+    left: 278px;
+    transform: rotate(120deg);    
+}
