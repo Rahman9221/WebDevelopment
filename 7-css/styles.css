@@ -1,0 +1,210 @@
+body
+{
+    background-color: rgb(239, 208, 208);
+}
+
+/* h1
+{
+    background-color: green;
+    width: 10px;
+    height: 100px;
+    transition: 2s;
+
+}
+
+h1:hover
+{
+    width: 200px;
+    cursor: pointer;
+
+}
+
+div
+{
+    color: violet;
+    background-color: pink;
+    height: 200px;
+    width: 220px;
+    transition: width 9s, height 2s, transform 10s;
+}
+
+div:hover
+{
+    transform: rotate(360deg);
+    width: 400px;
+    height: 400px;
+} */
+
+/* ---------------------------------------Buttons */
+/* .button
+{
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    color: wheat;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    margin:  10px  20px     30px        30px;
+    cursor: pointer;
+} 
+
+.button:hover
+{
+    background-color: blueviolet;
+} */
+ 
+
+
+ /* ---------------------column layouts */
+ /* div
+ {
+    column-count: 3;
+    column-rule-style: dotted;
+    column-rule-color: red;
+    column-gap: 100px;
+    
+ }
+
+h1
+{
+    column-span: all;
+}
+
+ hr
+ {
+    border:1px dotted;
+    color: green;
+ } */
+ 
+ /* ----------------- responsive layouts */
+
+/* .outerdiv
+{
+    
+    column-width: 400px;
+    column-gap: 60px;
+    border: 3px solid orange;
+    
+}
+
+.innerdiv
+{
+    border: 2px solid green;
+    background-color: rgb(207,232, 220);
+    padding: 10px;
+    margin: 0 0 1em 0;
+} */
+
+/* ------------ Before and after selector  */
+
+/* p::after
+{
+    border: 2px solid salmon;
+    content: " I am on the line after";
+}
+
+p::before
+{
+    border: 2px solid salmon;
+    content: "I am on the line before ";
+} */
+
+.header
+{
+    background-image: linear-gradient(to right,  rgb(231, 219, 8), green);
+    box-shadow: 1px 2px coral;
+    text-shadow: 2px 2px orange;
+}
+
+.html
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.row
+{
+    border: 10px solid snow;
+    display: table;
+    width: 100%;
+    
+}
+
+.row::after
+{
+    border: 10px solid rgb(242, 123, 123);
+    color: initial ;
+    content: "Other award and Honurs";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/* [class*="col-"]
+{
+    float: left;
+    
+} */
+
+
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu li
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to left, orange, green);
+    box-shadow: 1px 1px 1px 1px  red;
+
+}
+
+table
+{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-3
+{
+    float: left;
+}
+
+.col-s-12
+{
+    
+    /* float: right; */
+    text-align: right;
+    border: 2px solid salmon;
+
+}
+
+.col-6 h1, p{
+    position: relative;
+    left: 50px;
+    width: 1000px;
+}
